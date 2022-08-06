@@ -156,7 +156,7 @@ export const ImageUpload = () => {
       formData.append("file", selectedFile);
       let res = await axios({
         method: "post",
-        url: "https://us-central1-still-bank-358520.cloudfunctions.net/predict",
+        url: process.env.REACT_APP_API_URL,
         data: formData,
       });
       if (res.status === 200) {
