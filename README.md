@@ -1,6 +1,6 @@
 # potato-disease-classification
 A potato disease classification model, that has trained the PlantVillage dataset from Kaggle and can predict stages of blight in a potato leaf.
-For training the model tensorflow with keras has been used and google cloud has been used for the deployment of the function, it is actually pretty simple. 
+For training the model tensorflow with keras has been used and google cloud has been used for the deployment of the function, it is actually pretty simple. The model has been deployed on google cloud, check the gcp folder for more details. 
 The web and mobile apps use react and react-native respectively. 
 
 
